@@ -507,6 +507,7 @@ function initInputObserver({
       const id = mirror.getId(target as Node);
       callbackWrapper(inputCb)({
         ...v,
+        path: getNodePath(target as Node),
         id,
       });
     }
