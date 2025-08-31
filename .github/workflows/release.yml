@@ -33,7 +33,7 @@ jobs:
           publish: yarn run release
         env:
           NODE_OPTIONS: '--max-old-space-size=4096'
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: Build Chrome Extension
       #   if: steps.changesets.outputs.published == 'true'

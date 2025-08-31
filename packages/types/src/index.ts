@@ -418,6 +418,7 @@ type mouseInteractionParam = {
   id: number;
   x?: number;
   y?: number;
+  path?: string;
   pointerType?: PointerTypes;
 };
 
