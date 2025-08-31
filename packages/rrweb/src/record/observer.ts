@@ -193,8 +193,11 @@ function getNodeString(el: Element): string {
   return [
     el.tagName?.toLowerCase(),
     el.id && `#${el.id}`,
-    el.classList?.value && `.${el.classList?.value?.split(' ').join('.').replace(/\s/g, "")}`,
-  ].filter(Boolean).join('');
+    el.classList?.value &&
+      `.${el.classList?.value?.split(' ').join('.').replace(/\s/g, '')}`,
+  ]
+    .filter(Boolean)
+    .join('');
 }
 
 function getNodePath(node: Node): string {
@@ -204,7 +207,7 @@ function getNodePath(node: Node): string {
   while (current && path.length < 400) {
     const parentString = getNodeString(current as Element);
 
-    if(parentString) {
+    if (parentString) {
       path = `${parentString} ${path}`;
     }
 
@@ -299,7 +302,7 @@ function initMouseInteractionObserver({
         ...(pointerType !== null && { pointerType }),
       };
 
-      if(eventParams.type === MouseInteractions.Click) {
+      if (eventParams.type === MouseInteractions.Click) {
         eventParams.path = getNodePath(target);
       }
 
