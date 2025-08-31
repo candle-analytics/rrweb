@@ -1553,7 +1553,8 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 39,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -1612,7 +1613,8 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 49,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {

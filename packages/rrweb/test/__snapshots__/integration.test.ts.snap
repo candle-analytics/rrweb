@@ -2447,7 +2447,8 @@ exports[`record integration tests > can record clicks 1`] = `
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 18,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body span#not-a-link\\"
     }
   },
   {
@@ -2472,7 +2473,8 @@ exports[`record integration tests > can record clicks 1`] = `
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 18,
-      \\"pointerType\\": 2
+      \\"pointerType\\": 2,
+      \\"path\\": \\"html body span#not-a-link\\"
     }
   },
   {
@@ -2505,7 +2507,8 @@ exports[`record integration tests > can record clicks 1`] = `
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 21,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body a\\"
     }
   }
 ]"
@@ -3078,7 +3081,8 @@ exports[`record integration tests > can record form interactions 1`] = `
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 27,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -3137,7 +3141,8 @@ exports[`record integration tests > can record form interactions 1`] = `
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 37,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -5062,7 +5067,8 @@ exports[`record integration tests > can use maskInputOptions to configure which 
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 27,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -5121,7 +5127,8 @@ exports[`record integration tests > can use maskInputOptions to configure which 
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 37,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -6094,7 +6101,8 @@ exports[`record integration tests > mutations should work when blocked class is 
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 42,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body div.first button\\"
     }
   },
   {
@@ -6226,7 +6234,8 @@ exports[`record integration tests > mutations should work when blocked class is 
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 68,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body div.second button\\"
     }
   },
   {
@@ -6889,7 +6898,8 @@ exports[`record integration tests > should mask inputs via function call 1`] = `
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 27,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -6948,7 +6958,8 @@ exports[`record integration tests > should mask inputs via function call 1`] = `
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 37,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -7508,7 +7519,8 @@ exports[`record integration tests > should mask password value attribute with ma
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 20,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body button#show-password\\"
     }
   },
   {
@@ -7617,7 +7629,8 @@ exports[`record integration tests > should mask password value attribute with ma
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 20,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body button#show-password\\"
     }
   },
   {
@@ -10717,7 +10730,8 @@ exports[`record integration tests > should not record input values if maskAllInp
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 27,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -10776,7 +10790,8 @@ exports[`record integration tests > should not record input values if maskAllInp
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 37,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -12227,7 +12242,8 @@ exports[`record integration tests > should record dynamic CSS changes 1`] = `
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 26,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body div#app section.sc-AxirZ.bJCmFu h1.sc-AxjAm.eOXmez.toggle\\"
     }
   },
   {
@@ -13835,7 +13851,8 @@ exports[`record integration tests > should record input userTriggered values if 
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 27,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {
@@ -13896,7 +13913,8 @@ exports[`record integration tests > should record input userTriggered values if 
       \\"source\\": 2,
       \\"type\\": 2,
       \\"id\\": 37,
-      \\"pointerType\\": 0
+      \\"pointerType\\": 0,
+      \\"path\\": \\"html body form label input\\"
     }
   },
   {

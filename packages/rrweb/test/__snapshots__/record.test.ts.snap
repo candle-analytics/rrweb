@@ -80,7 +80,8 @@ exports[`record > aggregates mutations 1`] = `
     \\"data\\": {
       \\"source\\": 2,
       \\"type\\": 2,
-      \\"id\\": 5
+      \\"id\\": 5,
+      \\"path\\": \\"html body\\"
     }
   }
 ]"
@@ -3452,7 +3453,8 @@ exports[`record > no need for attribute mutations on adds 1`] = `
     \\"data\\": {
       \\"source\\": 2,
       \\"type\\": 2,
-      \\"id\\": 5
+      \\"id\\": 5,
+      \\"path\\": \\"html body\\"
     }
   }
 ]"
