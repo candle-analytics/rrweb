@@ -20,6 +20,7 @@ import {
 } from '../utils';
 import { patch } from '@rrweb/utils';
 import type { observerParam, MutationBufferParam } from '../types';
+import type { mouseInteractionData } from '@rrweb/types';
 import {
   IncrementalSource,
   MouseInteractions,
@@ -188,6 +189,30 @@ function initMoveObserver({
   });
 }
 
+function getNodeString(el: Element): string {
+  return [
+    el.tagName?.toLowerCase(),
+    el.id && `#${el.id}`,
+    el.classList?.value && `.${el.classList?.value?.split(' ').join('.').replace(/\s/g, "")}`,
+  ].filter(Boolean).join('');
+}
+
+function getNodePath(node: Node): string {
+  let path = getNodeString(node as Element);
+  let current: Node | null = node.parentNode;
+
+  while (current && path.length < 400) {
+    const parentString = getNodeString(current as Element);
+
+    if(parentString) {
+      path = `${parentString} ${path}`;
+    }
+
+    current = current.parentNode;
+  }
+  return path;
+}
+
 function initMouseInteractionObserver({
   mouseInteractionCb,
   doc,
@@ -266,13 +291,19 @@ function initMouseInteractionObserver({
       }
       const id = mirror.getId(target);
       const { clientX, clientY } = e;
-      callbackWrapper(mouseInteractionCb)({
+      const eventParams: Omit<mouseInteractionData, 'source'> = {
         type: MouseInteractions[thisEventKey],
         id,
         x: clientX,
         y: clientY,
         ...(pointerType !== null && { pointerType }),
-      });
+      };
+
+      if(eventParams.type === MouseInteractions.Click) {
+        eventParams.path = getNodePath(target);
+      }
+
+      callbackWrapper(mouseInteractionCb)(eventParams);
     };
   };
   Object.keys(MouseInteractions)
