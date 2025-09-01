@@ -54,7 +54,6 @@ import type {
   incrementalData,
   Handler,
   Emitter,
-  metaEvent,
   mutationData,
   scrollData,
   inputData,
