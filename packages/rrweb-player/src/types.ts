@@ -1,6 +1,6 @@
-import type { eventWithTime } from '@rrweb/types';
-import type { Replayer, playerConfig } from '@rrweb/replay';
-import type { Mirror } from 'rrweb-snapshot';
+import type { eventWithTime } from '@candle-analytics/rrweb-types';
+import type { Replayer, playerConfig } from '@candle-analytics/rrweb-replay';
+import type { Mirror } from '@candle-analytics/rrweb-snapshot';
 
 export type RRwebPlayerOptions = {
   target: HTMLElement;

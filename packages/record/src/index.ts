@@ -1,3 +1,3 @@
-import { record } from 'rrweb';
+import { record } from '@candle-analytics/rrweb';
 
 export { record };

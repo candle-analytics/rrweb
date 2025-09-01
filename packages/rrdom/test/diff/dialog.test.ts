@@ -6,8 +6,8 @@ import {
   createMirror,
   Mirror as NodeMirror,
   serializedNodeWithId,
-} from 'rrweb-snapshot';
-import { NodeType as RRNodeType } from '@rrweb/types';
+} from '@candle-analytics/rrweb-snapshot';
+import { NodeType as RRNodeType } from '@candle-analytics/rrweb-types';
 import { RRDocument } from '../../src';
 import { diff, ReplayerHandler } from '../../src/diff';
 

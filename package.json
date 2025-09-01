@@ -1,5 +1,5 @@
 {
-  "name": "@rrweb/_monorepo",
+  "name": "@candle-analytics/_monorepo",
   "description": "record and replay the web",
   "repository": {
     "type": "git",

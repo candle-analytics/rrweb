@@ -1,4 +1,4 @@
-import type { ICanvas, Mirror } from 'rrweb-snapshot';
+import type { ICanvas, Mirror } from '@candle-analytics/rrweb-snapshot';
 import type {
   blockClass,
   canvasManagerMutationCallback,
@@ -9,9 +9,9 @@ import type {
   listenerHandler,
   CanvasArg,
   DataURLOptions,
-} from '@rrweb/types';
+} from '@candle-analytics/rrweb-types';
 import { isBlocked } from '../../../utils';
-import { CanvasContext } from '@rrweb/types';
+import { CanvasContext } from '@candle-analytics/rrweb-types';
 import initCanvas2DMutationObserver from './2d';
 import initCanvasContextObserver from './canvas';
 import initCanvasWebGLMutationObserver from './webgl';

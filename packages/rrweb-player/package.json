@@ -1,8 +1,8 @@
 {
-  "name": "rrweb-player",
+  "name": "@candle-analytics/rrweb-player",
   "version": "2.0.0-alpha.19",
   "devDependencies": {
-    "@rrweb/types": "^2.0.0-alpha.19",
+    "@candle-analytics/rrweb-types": "^2.0.0-alpha.19",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/package": "^2.0.0",
@@ -19,9 +19,9 @@
     "vite": "^5.3.1"
   },
   "dependencies": {
-    "@tsconfig/svelte": "^1.0.0",
-    "@rrweb/replay": "^2.0.0-alpha.19",
-    "@rrweb/packer": "^2.0.0-alpha.19"
+    "@candle-analytics/rrweb-replay": "^2.0.0-alpha.19",
+    "@candle-analytics/rrweb-packer": "^2.0.0-alpha.19",
+    "@tsconfig/svelte": "^1.0.0"
   },
   "scripts": {
     "dev": "vite build --watch",

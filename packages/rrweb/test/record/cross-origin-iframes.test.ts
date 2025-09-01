@@ -7,8 +7,8 @@ import type {
   listenerHandler,
   eventWithTime,
   mutationData,
-} from '@rrweb/types';
-import { EventType, IncrementalSource } from '@rrweb/types';
+} from '@candle-analytics/rrweb-types';
+import { EventType, IncrementalSource } from '@candle-analytics/rrweb-types';
 import {
   assertSnapshot,
   getServerURL,

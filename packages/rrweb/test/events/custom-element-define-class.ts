@@ -1,5 +1,5 @@
-import { EventType } from '@rrweb/types';
-import type { eventWithTime } from '@rrweb/types';
+import { EventType } from '@candle-analytics/rrweb-types';
+import type { eventWithTime } from '@candle-analytics/rrweb-types';
 
 const now = Date.now();
 const events: eventWithTime[] = [

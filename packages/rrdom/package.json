@@ -1,5 +1,5 @@
 {
-  "name": "rrdom",
+  "name": "@candle-analytics/rrdom",
   "version": "2.0.0-alpha.19",
   "homepage": "https://github.com/candle-analytics/rrweb/tree/main/packages/rrdom#readme",
   "license": "MIT",
@@ -41,7 +41,7 @@
     "url": "https://github.com/candle-analytics/rrweb/issues"
   },
   "devDependencies": {
-    "@rrweb/types": "^2.0.0-alpha.19",
+    "@candle-analytics/rrweb-types": "^2.0.0-alpha.19",
     "@types/puppeteer": "^5.4.4",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
@@ -52,6 +52,6 @@
     "vite-plugin-dts": "^3.9.1"
   },
   "dependencies": {
-    "rrweb-snapshot": "^2.0.0-alpha.19"
+    "@candle-analytics/rrweb-snapshot": "^2.0.0-alpha.19"
   }
 }

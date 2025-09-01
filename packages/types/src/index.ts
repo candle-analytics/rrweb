@@ -848,6 +848,6 @@ export type DataURLOptions = Partial<{
   quality: number;
 }>;
 
-// Types for @rrweb/packer
+// Types for @candle-analytics/rrweb-packer
 export type PackFn = (event: eventWithTime) => string;
 export type UnpackFn = (raw: string) => eventWithTime;

@@ -1,12 +1,12 @@
 {
-  "name": "@rrweb/all",
+  "name": "@candle-analytics/rrweb-all",
   "version": "2.0.0-alpha.19",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "rrweb",
-    "@rrweb/all"
+    "@candle-analytics/rrweb-all"
   ],
   "scripts": {
     "dev": "vite build --watch",
@@ -56,9 +56,9 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@rrweb/types": "^2.0.0-alpha.19",
-    "@rrweb/packer": "^2.0.0-alpha.19",
-    "rrweb": "^2.0.0-alpha.19"
+    "@candle-analytics/rrweb-types": "^2.0.0-alpha.19",
+    "@candle-analytics/rrweb-packer": "^2.0.0-alpha.19",
+    "@candle-analytics/rrweb": "^2.0.0-alpha.19"
   },
   "browserslist": [
     "supports es6-class"

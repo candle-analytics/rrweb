@@ -1,4 +1,4 @@
-import type { eventWithTime } from '@rrweb/types';
+import type { eventWithTime } from '@candle-analytics/rrweb-types';
 
 export type eventWithTimeAndPacker = eventWithTime & {
   v: string;

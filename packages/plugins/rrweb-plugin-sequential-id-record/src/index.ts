@@ -1,4 +1,4 @@
-import type { RecordPlugin } from '@rrweb/types';
+import type { RecordPlugin } from '@candle-analytics/rrweb-types';
 
 export type SequentialIdOptions = {
   key: string;

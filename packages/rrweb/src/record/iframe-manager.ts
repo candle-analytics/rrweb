@@ -1,14 +1,14 @@
-import type { Mirror } from 'rrweb-snapshot';
-import { genId } from 'rrweb-snapshot';
+import type { Mirror } from '@candle-analytics/rrweb-snapshot';
+import { genId } from '@candle-analytics/rrweb-snapshot';
 import type { CrossOriginIframeMessageEvent } from '../types';
 import CrossOriginIframeMirror from './cross-origin-iframe-mirror';
-import { EventType, NodeType, IncrementalSource } from '@rrweb/types';
+import { EventType, NodeType, IncrementalSource } from '@candle-analytics/rrweb-types';
 import type {
   eventWithTime,
   eventWithoutTime,
   serializedNodeWithId,
   mutationCallBack,
-} from '@rrweb/types';
+} from '@candle-analytics/rrweb-types';
 import type { StylesheetManager } from './stylesheet-manager';
 
 export class IframeManager {

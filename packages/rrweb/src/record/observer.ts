@@ -4,7 +4,7 @@ import {
   Mirror,
   getInputType,
   toLowerCase,
-} from 'rrweb-snapshot';
+} from '@candle-analytics/rrweb-snapshot';
 import type { FontFaceSet } from 'css-font-loading-module';
 import {
   throttle,
@@ -18,15 +18,15 @@ import {
   StyleSheetMirror,
   nowTimestamp,
 } from '../utils';
-import { patch } from '@rrweb/utils';
+import { patch } from '@candle-analytics/rrweb-utils';
 import type { observerParam, MutationBufferParam } from '../types';
-import type { mouseInteractionData } from '@rrweb/types';
+import type { mouseInteractionData } from '@candle-analytics/rrweb-types';
 import {
   IncrementalSource,
   MouseInteractions,
   PointerTypes,
   MediaInteractions,
-} from '@rrweb/types';
+} from '@candle-analytics/rrweb-types';
 import type {
   mutationCallBack,
   mousemoveCallBack,
@@ -50,10 +50,10 @@ import type {
   SelectionRange,
   selectionCallback,
   customElementCallback,
-} from '@rrweb/types';
+} from '@candle-analytics/rrweb-types';
 import MutationBuffer from './mutation';
 import { callbackWrapper } from './error-handler';
-import dom, { mutationObserverCtor } from '@rrweb/utils';
+import dom, { mutationObserverCtor } from '@candle-analytics/rrweb-utils';
 
 export const mutationBuffers: MutationBuffer[] = [];
 
@@ -1111,7 +1111,7 @@ function initFontObserver({ fontCb, doc }: observerParam): listenerHandler {
     source: string | ArrayBufferLike,
     descriptors?: FontFaceDescriptors,
   ) {
-    const fontFace = new originalFontFace(family, source, descriptors);
+    const fontFace = new originalFontFace(family, source as string, descriptors);
     fontMap.set(fontFace, {
       family,
       buffer: typeof source !== 'string',

@@ -8,8 +8,8 @@ import {
   fixSafariColons,
   isNodeMetaEqual,
 } from '../src/utils';
-import { NodeType } from '@rrweb/types';
-import type { serializedNode, serializedNodeWithId } from '@rrweb/types';
+import { NodeType } from '@candle-analytics/rrweb-types';
+import type { serializedNode, serializedNodeWithId } from '@candle-analytics/rrweb-types';
 
 describe('utils', () => {
   describe('isNodeMetaEqual()', () => {

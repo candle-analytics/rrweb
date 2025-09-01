@@ -6,7 +6,7 @@ export default config(
     'rrweb-record': 'src/entries/record.ts',
     'rrweb-replay': 'src/entries/replay.ts',
   },
-  'rrweb',
+  '@candle-analytics/rrweb',
   // { outputDir: 'dist/alt' },
   { outputDir: 'dist' },
 );

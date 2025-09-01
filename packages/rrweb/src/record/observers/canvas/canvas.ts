@@ -1,7 +1,7 @@
-import type { ICanvas } from 'rrweb-snapshot';
-import type { blockClass, IWindow, listenerHandler } from '@rrweb/types';
+import type { ICanvas } from '@candle-analytics/rrweb-snapshot';
+import type { blockClass, IWindow, listenerHandler } from '@candle-analytics/rrweb-types';
 import { isBlocked } from '../../../utils';
-import { patch } from '@rrweb/utils';
+import { patch } from '@candle-analytics/rrweb-utils';
 
 function getNormalizedContextName(contextType: string) {
   return contextType === 'experimental-webgl' ? 'webgl' : contextType;

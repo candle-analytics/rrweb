@@ -1,6 +1,6 @@
-import { record } from 'rrweb';
-import type { recordOptions } from 'rrweb';
-import type { eventWithTime } from '@rrweb/types';
+import { record } from '@candle-analytics/rrweb';
+import type { recordOptions } from '@candle-analytics/rrweb';
+import type { eventWithTime } from '@candle-analytics/rrweb-types';
 import { MessageName, type RecordStartedMessage } from '~/types';
 import { isInCrossOriginIFrame } from '~/utils';
 
