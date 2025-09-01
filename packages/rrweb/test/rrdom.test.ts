@@ -3,8 +3,14 @@
  */
 import { EventType, IncrementalSource, Replayer, eventWithTime } from '../src';
 import { vi, type MockInstance } from 'vitest';
-import type { styleDeclarationData, styleSheetRuleData } from '@candle-analytics/rrweb-types';
-import { createMirror, Mirror as NodeMirror } from '@candle-analytics/rrweb-snapshot';
+import type {
+  styleDeclarationData,
+  styleSheetRuleData,
+} from '@candle-analytics/rrweb-types';
+import {
+  createMirror,
+  Mirror as NodeMirror,
+} from '@candle-analytics/rrweb-snapshot';
 import type { ReplayerHandler } from '@candle-analytics/rrdom';
 
 describe('diff algorithm for rrdom', () => {

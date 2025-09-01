@@ -1,4 +1,8 @@
-import type { listenerHandler, RecordPlugin, IWindow } from '@candle-analytics/rrweb-types';
+import type {
+  listenerHandler,
+  RecordPlugin,
+  IWindow,
+} from '@candle-analytics/rrweb-types';
 import { patch } from '@candle-analytics/rrweb-utils';
 import { ErrorStackParser, StackFrame } from './error-stack-parser';
 import { stringify } from './stringify';

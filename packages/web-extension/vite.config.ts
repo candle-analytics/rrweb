@@ -96,7 +96,9 @@ export default defineConfig({
         const BrowserName =
           process.env.TARGET_BROWSER === 'chrome' ? 'chrome' : 'firefox';
         const commonManifest = originalManifest.common;
-        const rrwebVersion = packageJson.dependencies!["@candle-analytics/rrweb"]!.replace('^', '');
+        const rrwebVersion = packageJson.dependencies![
+          '@candle-analytics/rrweb'
+        ]!.replace('^', '');
         const manifest = {
           version: getExtensionVersion(rrwebVersion),
           author: packageJson.author,

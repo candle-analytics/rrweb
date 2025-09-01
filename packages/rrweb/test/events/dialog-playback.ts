@@ -1,4 +1,7 @@
-import { eventWithTime, IncrementalSource } from '@candle-analytics/rrweb-types';
+import {
+  eventWithTime,
+  IncrementalSource,
+} from '@candle-analytics/rrweb-types';
 
 const startTime = 1900000000;
 export const closedFullSnapshotTime = 132;
