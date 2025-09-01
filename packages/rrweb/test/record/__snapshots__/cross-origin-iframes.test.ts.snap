@@ -1485,6 +1485,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"t\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 34
     }
   },
@@ -1494,6 +1495,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"te\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 34
     }
   },
@@ -1503,6 +1505,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"tes\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 34
     }
   },
@@ -1512,6 +1515,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"test\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 34
     }
   },
@@ -1563,6 +1567,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"on\\",
       \\"isChecked\\": true,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 39
     }
   },
@@ -1572,6 +1577,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"off\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 44
     }
   },
@@ -1623,6 +1629,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"on\\",
       \\"isChecked\\": true,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 49
     }
   },
@@ -1648,6 +1655,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"*\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 71
     }
   },
@@ -1657,6 +1665,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"**\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 71
     }
   },
@@ -1666,6 +1675,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"***\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 71
     }
   },
@@ -1675,6 +1685,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"****\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 71
     }
   },
@@ -1684,6 +1695,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"*****\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 71
     }
   },
@@ -1693,6 +1705,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"******\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 71
     }
   },
@@ -1702,6 +1715,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"*******\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 71
     }
   },
@@ -1711,6 +1725,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"********\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label input\\",
       \\"id\\": 71
     }
   },
@@ -1736,6 +1751,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"t\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1745,6 +1761,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"te\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1754,6 +1771,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"tex\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1763,6 +1781,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"text\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1772,6 +1791,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"texta\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1781,6 +1801,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"textar\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1790,6 +1811,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"textare\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1799,6 +1821,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"textarea\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1808,6 +1831,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"textarea \\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1817,6 +1841,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"textarea t\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1826,6 +1851,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"textarea te\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1835,6 +1861,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"textarea tes\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1844,6 +1871,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"textarea test\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label textarea\\",
       \\"id\\": 54
     }
   },
@@ -1853,6 +1881,7 @@ exports[`cross origin iframes > form.html > should map input events correctly 1`
       \\"source\\": 5,
       \\"text\\": \\"1\\",
       \\"isChecked\\": false,
+      \\"path\\": \\"html body form label select\\",
       \\"id\\": 59
     }
   }

@@ -3,5 +3,5 @@ import config from '../../vite.config.default';
 
 export default config(
   path.resolve(__dirname, 'src/index.ts'),
-  '@candle-analytics/rrweb',
+  'rrweb',
 );
