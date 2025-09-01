@@ -5,7 +5,7 @@ import { EventType, eventWithTime } from '@candle-analytics/rrweb-types';
 import type Player from '@candle-analytics/rrweb-player';
 
 const rrwebScriptPath = path.resolve(
-  require.resolve('rrweb-player'),
+  require.resolve('@candle-analytics/rrweb-player'),
   '../../dist/rrweb-player.umd.cjs',
 );
 const rrwebStylePath = path.resolve(rrwebScriptPath, '../style.css');
