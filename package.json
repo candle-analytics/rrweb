@@ -13,7 +13,6 @@
   "bugs": {
     "url": "https://github.com/candle-analytics/rrweb/issues"
   },
-  "private": true,
   "homepage": "https://github.com/candle-analytics/rrweb#readme",
   "workspaces": [
     "packages/*",
