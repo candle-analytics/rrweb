@@ -2,11 +2,7 @@ import type { Mirror } from '@getcandle/rrweb-snapshot';
 import { genId } from '@getcandle/rrweb-snapshot';
 import type { CrossOriginIframeMessageEvent } from '../types';
 import CrossOriginIframeMirror from './cross-origin-iframe-mirror';
-import {
-  EventType,
-  NodeType,
-  IncrementalSource,
-} from '@getcandle/rrweb-types';
+import { EventType, NodeType, IncrementalSource } from '@getcandle/rrweb-types';
 import type {
   eventWithTime,
   eventWithoutTime,

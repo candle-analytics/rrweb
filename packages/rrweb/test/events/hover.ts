@@ -1,7 +1,4 @@
-import {
-  IncrementalSource,
-  MouseInteractions,
-} from '@getcandle/rrweb-types';
+import { IncrementalSource, MouseInteractions } from '@getcandle/rrweb-types';
 import type { eventWithTime } from '../../../types/src';
 
 const events: eventWithTime[] = [

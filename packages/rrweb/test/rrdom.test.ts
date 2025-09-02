@@ -7,10 +7,7 @@ import type {
   styleDeclarationData,
   styleSheetRuleData,
 } from '@getcandle/rrweb-types';
-import {
-  createMirror,
-  Mirror as NodeMirror,
-} from '@getcandle/rrweb-snapshot';
+import { createMirror, Mirror as NodeMirror } from '@getcandle/rrweb-snapshot';
 import type { ReplayerHandler } from '@getcandle/rrdom';
 
 describe('diff algorithm for rrdom', () => {

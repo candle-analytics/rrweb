@@ -1,8 +1,5 @@
 import type { Emitter } from '@getcandle/rrweb-types';
-import {
-  MediaInteractions,
-  ReplayerEvents,
-} from '@getcandle/rrweb-types';
+import { MediaInteractions, ReplayerEvents } from '@getcandle/rrweb-types';
 import type { RRMediaElement } from '@getcandle/rrdom';
 import type { createPlayerService, createSpeedService } from '../machine';
 import type { Mirror } from '@getcandle/rrweb-snapshot';
