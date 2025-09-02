@@ -1,12 +1,12 @@
 {
-  "name": "@candle-analytics/rrweb-types",
+  "name": "@getcandle/rrweb-types",
   "version": "2.0.0",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "keywords": [
     "rrweb",
-    "@candle-analytics/rrweb-types"
+    "@getcandle/rrweb-types"
   ],
   "scripts": {
     "dev": "vite build --watch",

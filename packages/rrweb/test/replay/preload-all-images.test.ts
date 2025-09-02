@@ -11,7 +11,7 @@ import {
   IncrementalSource,
   EventType,
   eventWithTime,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 
 let replayer: Replayer;
 

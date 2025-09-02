@@ -18,8 +18,8 @@ import {
   eventWithTime,
   NodeType,
   EventType,
-} from '@candle-analytics/rrweb-types';
-import { visitSnapshot } from '@candle-analytics/rrweb-snapshot';
+} from '@getcandle/rrweb-types';
+import { visitSnapshot } from '@getcandle/rrweb-snapshot';
 
 describe('record integration tests', function (this: ISuite) {
   vi.setConfig({ testTimeout: 10_000 });

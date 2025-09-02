@@ -1,4 +1,4 @@
-import { NodeType as RRNodeType } from '@candle-analytics/rrweb-types';
+import { NodeType as RRNodeType } from '@getcandle/rrweb-types';
 import { parseCSSText, camelize, toCSSText } from './style';
 export interface IRRNode {
   parentElement: IRRNode | null;

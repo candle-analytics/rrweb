@@ -5,7 +5,7 @@ import type {
   nodeMetaMap,
 } from './types';
 
-import { NodeType } from '@candle-analytics/rrweb-types';
+import { NodeType } from '@getcandle/rrweb-types';
 import type {
   IMirror,
   serializedNodeWithId,
@@ -14,8 +14,8 @@ import type {
   documentTypeNode,
   textNode,
   elementNode,
-} from '@candle-analytics/rrweb-types';
-import dom from '@candle-analytics/rrweb-utils';
+} from '@getcandle/rrweb-types';
+import dom from '@getcandle/rrweb-utils';
 
 export function isElement(n: Node): n is Element {
   return n.nodeType === n.ELEMENT_NODE;

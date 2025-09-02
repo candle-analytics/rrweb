@@ -1,11 +1,11 @@
 import * as fs from 'fs-extra';
 import * as path from 'path';
 import { chromium } from 'playwright';
-import { EventType, eventWithTime } from '@candle-analytics/rrweb-types';
-import type Player from '@candle-analytics/rrweb-player';
+import { EventType, eventWithTime } from '@getcandle/rrweb-types';
+import type Player from '@getcandle/rrweb-player';
 
 const rrwebScriptPath = path.resolve(
-  require.resolve('@candle-analytics/rrweb-player'),
+  require.resolve('@getcandle/rrweb-player'),
   '../../dist/rrweb-player.umd.cjs',
 );
 const rrwebStylePath = path.resolve(rrwebScriptPath, '../style.css');

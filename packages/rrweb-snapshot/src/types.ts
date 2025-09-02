@@ -1,4 +1,4 @@
-import type { serializedNodeWithId } from '@candle-analytics/rrweb-types';
+import type { serializedNodeWithId } from '@getcandle/rrweb-types';
 
 export type tagMap = {
   [key: string]: string;

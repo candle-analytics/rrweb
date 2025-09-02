@@ -11,7 +11,7 @@ import {
   EventType,
   type Emitter,
   IncrementalSource,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import { Timer, addDelay } from './timer';
 
 export type PlayerContext = {

@@ -1,5 +1,5 @@
-import type { eventWithTime } from '@candle-analytics/rrweb-types';
-import { record } from '@candle-analytics/rrweb';
+import type { eventWithTime } from '@getcandle/rrweb-types';
+import { record } from '@getcandle/rrweb';
 import { getRecordConsolePlugin } from '../../src/index';
 
 window.Date.now = () => new Date(Date.UTC(2018, 10, 15, 8)).valueOf();

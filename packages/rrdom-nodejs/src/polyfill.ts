@@ -1,4 +1,4 @@
-import { BaseRRNode } from '@candle-analytics/rrdom';
+import { BaseRRNode } from '@getcandle/rrdom';
 import { RRDocument } from './document-nodejs';
 
 /**

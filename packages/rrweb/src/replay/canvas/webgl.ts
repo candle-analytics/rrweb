@@ -2,7 +2,7 @@ import type { Replayer } from '../';
 import {
   CanvasContext,
   type canvasMutationCommand,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import { deserializeArg, variableListFor } from './deserialize-args';
 
 function getContext(

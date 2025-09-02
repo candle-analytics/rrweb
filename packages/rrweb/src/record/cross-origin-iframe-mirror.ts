@@ -1,4 +1,4 @@
-import type { ICrossOriginIframeMirror } from '@candle-analytics/rrweb-types';
+import type { ICrossOriginIframeMirror } from '@getcandle/rrweb-types';
 export default class CrossOriginIframeMirror
   implements ICrossOriginIframeMirror
 {

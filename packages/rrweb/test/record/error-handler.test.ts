@@ -7,7 +7,7 @@ import {
   listenerHandler,
   eventWithTime,
   EventType,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import { launchPuppeteer } from '../utils';
 import {
   callbackWrapper,

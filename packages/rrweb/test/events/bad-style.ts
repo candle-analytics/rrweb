@@ -1,5 +1,5 @@
-import { EventType, IncrementalSource } from '@candle-analytics/rrweb-types';
-import type { eventWithTime } from '@candle-analytics/rrweb-types';
+import { EventType, IncrementalSource } from '@getcandle/rrweb-types';
+import type { eventWithTime } from '@getcandle/rrweb-types';
 
 /**
  * https://github.com/rrweb-io/rrweb/pull/1417

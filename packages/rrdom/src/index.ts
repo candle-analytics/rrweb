@@ -1,6 +1,6 @@
-import { createMirror as createNodeMirror } from '@candle-analytics/rrweb-snapshot';
-import type { Mirror as NodeMirror } from '@candle-analytics/rrweb-snapshot';
-import { NodeType as RRNodeType } from '@candle-analytics/rrweb-types';
+import { createMirror as createNodeMirror } from '@getcandle/rrweb-snapshot';
+import type { Mirror as NodeMirror } from '@getcandle/rrweb-snapshot';
+import { NodeType as RRNodeType } from '@getcandle/rrweb-types';
 import type {
   IMirror,
   serializedNodeWithId,
@@ -10,7 +10,7 @@ import type {
   scrollData,
   styleSheetRuleData,
   styleDeclarationData,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   BaseRRNode as RRNode,
   BaseRRCDATASection,

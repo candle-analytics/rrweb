@@ -1,5 +1,5 @@
 {
-  "name": "@candle-analytics/rrdom-nodejs",
+  "name": "@getcandle/rrdom-nodejs",
   "version": "2.0.0",
   "scripts": {
     "dev": "vite build --watch",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "rrweb",
-    "@candle-analytics/rrdom-nodejs"
+    "@getcandle/rrdom-nodejs"
   ],
   "license": "MIT",
   "type": "module",
@@ -52,8 +52,8 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@candle-analytics/rrdom": "^2.0.0",
-    "@candle-analytics/rrweb-types": "^2.0.0",
+    "@getcandle/rrdom": "^2.0.0",
+    "@getcandle/rrweb-types": "^2.0.0",
     "cssom": "^0.5.0",
     "cssstyle": "^2.3.0",
     "nwsapi": "2.2.0"

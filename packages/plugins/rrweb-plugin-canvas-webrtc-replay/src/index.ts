@@ -1,7 +1,7 @@
-import type { RRNode } from '@candle-analytics/rrdom';
-import type { Mirror } from '@candle-analytics/rrweb-snapshot';
+import type { RRNode } from '@getcandle/rrdom';
+import type { Mirror } from '@getcandle/rrweb-snapshot';
 import SimplePeer from 'simple-peer-light';
-import type { ReplayPlugin, Replayer } from '@candle-analytics/rrweb';
+import type { ReplayPlugin, Replayer } from '@getcandle/rrweb';
 import type { WebRTCDataChannel } from './types';
 
 // TODO: restrict callback to real nodes only, or make sure callback gets called when real node gets added to dom as well

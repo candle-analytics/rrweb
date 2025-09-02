@@ -11,14 +11,14 @@ import type {
   eventWithTime,
   listenerHandler,
   mutationData,
-} from '@candle-analytics/rrweb-types';
-import { unpack } from '@candle-analytics/rrweb-packer';
+} from '@getcandle/rrweb-types';
+import { unpack } from '@getcandle/rrweb-packer';
 import * as fs from 'fs';
 import * as path from 'path';
 import type * as puppeteer from 'puppeteer';
-import type { recordOptions } from '@candle-analytics/rrweb';
-import type {} from '@candle-analytics/rrweb-types';
-import { EventType } from '@candle-analytics/rrweb-types';
+import type { recordOptions } from '@getcandle/rrweb';
+import type {} from '@getcandle/rrweb-types';
+import { EventType } from '@getcandle/rrweb-types';
 import {
   assertSnapshot,
   getServerURL,

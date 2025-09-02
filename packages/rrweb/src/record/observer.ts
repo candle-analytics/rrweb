@@ -4,7 +4,7 @@ import {
   Mirror,
   getInputType,
   toLowerCase,
-} from '@candle-analytics/rrweb-snapshot';
+} from '@getcandle/rrweb-snapshot';
 import type { FontFaceSet } from 'css-font-loading-module';
 import {
   throttle,
@@ -18,15 +18,15 @@ import {
   StyleSheetMirror,
   nowTimestamp,
 } from '../utils';
-import { patch } from '@candle-analytics/rrweb-utils';
+import { patch } from '@getcandle/rrweb-utils';
 import type { observerParam, MutationBufferParam } from '../types';
-import type { mouseInteractionData } from '@candle-analytics/rrweb-types';
+import type { mouseInteractionData } from '@getcandle/rrweb-types';
 import {
   IncrementalSource,
   MouseInteractions,
   PointerTypes,
   MediaInteractions,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import type {
   mutationCallBack,
   mousemoveCallBack,
@@ -50,10 +50,10 @@ import type {
   SelectionRange,
   selectionCallback,
   customElementCallback,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import MutationBuffer from './mutation';
 import { callbackWrapper } from './error-handler';
-import dom, { mutationObserverCtor } from '@candle-analytics/rrweb-utils';
+import dom, { mutationObserverCtor } from '@getcandle/rrweb-utils';
 
 export const mutationBuffers: MutationBuffer[] = [];
 

@@ -5,10 +5,10 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @candle-analytics/rrdom@2.0.0
-  - @candle-analytics/rrweb-snapshot@2.0.0
-  - @candle-analytics/rrweb-types@2.0.0
-  - @candle-analytics/rrweb-utils@2.0.0
+  - @getcandle/rrdom@2.0.0
+  - @getcandle/rrweb-snapshot@2.0.0
+  - @getcandle/rrweb-types@2.0.0
+  - @getcandle/rrweb-utils@2.0.0
 
 ## 2.0.0-alpha.19
 

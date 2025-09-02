@@ -1,5 +1,5 @@
-import type { attributeMutation } from '@candle-analytics/rrweb-types';
-import { RRNode } from '@candle-analytics/rrdom';
+import type { attributeMutation } from '@getcandle/rrweb-types';
+import { RRNode } from '@getcandle/rrdom';
 
 /**
  * Checks if the dialog is a top level dialog and applies the dialog to the top level

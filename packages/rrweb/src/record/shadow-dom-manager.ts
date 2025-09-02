@@ -3,16 +3,16 @@ import type {
   mutationCallBack,
   scrollCallback,
   SamplingStrategy,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   initMutationObserver,
   initScrollObserver,
   initAdoptedStyleSheetObserver,
 } from './observer';
 import { inDom } from '../utils';
-import type { Mirror } from '@candle-analytics/rrweb-snapshot';
-import { isNativeShadowDom } from '@candle-analytics/rrweb-snapshot';
-import dom, { patch } from '@candle-analytics/rrweb-utils';
+import type { Mirror } from '@getcandle/rrweb-snapshot';
+import { isNativeShadowDom } from '@getcandle/rrweb-snapshot';
+import dom, { patch } from '@getcandle/rrweb-utils';
 
 type BypassOptions = Omit<
   MutationBufferParam,

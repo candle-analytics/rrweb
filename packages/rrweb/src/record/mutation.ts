@@ -10,7 +10,7 @@ import {
   isNativeShadowDom,
   getInputType,
   toLowerCase,
-} from '@candle-analytics/rrweb-snapshot';
+} from '@getcandle/rrweb-snapshot';
 import type { observerParam, MutationBufferParam } from '../types';
 import type {
   mutationRecord,
@@ -19,7 +19,7 @@ import type {
   removedNodeMutation,
   addedNodeMutation,
   Optional,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   isBlocked,
   isAncestorRemoved,
@@ -32,7 +32,7 @@ import {
   getShadowHost,
   closestElementOfNode,
 } from '../utils';
-import dom from '@candle-analytics/rrweb-utils';
+import dom from '@getcandle/rrweb-utils';
 
 type DoubleLinkedListNode = {
   previous: DoubleLinkedListNode | null;

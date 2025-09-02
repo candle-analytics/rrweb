@@ -2,10 +2,10 @@ import {
   type LogLevel,
   type LogData,
   PLUGIN_NAME,
-} from '@candle-analytics/rrweb-plugin-console-record';
-import type { eventWithTime } from '@candle-analytics/rrweb-types';
-import { EventType, IncrementalSource } from '@candle-analytics/rrweb-types';
-import type { ReplayPlugin, Replayer } from '@candle-analytics/rrweb';
+} from '@getcandle/rrweb-plugin-console-record';
+import type { eventWithTime } from '@getcandle/rrweb-types';
+import { EventType, IncrementalSource } from '@getcandle/rrweb-types';
+import type { ReplayPlugin, Replayer } from '@getcandle/rrweb';
 
 /**
  * define an interface to replay log records

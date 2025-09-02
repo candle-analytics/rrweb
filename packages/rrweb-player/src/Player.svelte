@@ -1,8 +1,8 @@
 <script lang="ts">
   import { onMount, onDestroy } from 'svelte';
-  import { Replayer } from '@candle-analytics/rrweb-replay';
-  import { unpack } from '@candle-analytics/rrweb-packer/unpack';
-  import type { eventWithTime } from '@candle-analytics/rrweb-types';
+  import { Replayer } from '@getcandle/rrweb-replay';
+  import { unpack } from '@getcandle/rrweb-packer/unpack';
+  import type { eventWithTime } from '@getcandle/rrweb-types';
   import {
     inlineCss,
     openFullscreen,
@@ -195,7 +195,7 @@
 </script>
 
 <style global>
-  @import '@candle-analytics/rrweb-replay/dist/style.css';
+  @import '@getcandle/rrweb-replay/dist/style.css';
 
   .rr-player {
     position: relative;

@@ -4,9 +4,9 @@ import {
   type canvasManagerMutationCallback,
   type IWindow,
   type listenerHandler,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import { hookSetter, isBlocked } from '../../../utils';
-import { patch } from '@candle-analytics/rrweb-utils';
+import { patch } from '@getcandle/rrweb-utils';
 import { serializeArgs } from './serialize-args';
 
 export default function initCanvas2DMutationObserver(

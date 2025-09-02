@@ -9,15 +9,15 @@ import type {
   DeprecatedMirror,
   textMutation,
   IMirror,
-} from '@candle-analytics/rrweb-types';
-import type { Mirror, SlimDOMOptions } from '@candle-analytics/rrweb-snapshot';
+} from '@getcandle/rrweb-types';
+import type { Mirror, SlimDOMOptions } from '@getcandle/rrweb-snapshot';
 import {
   isShadowRoot,
   IGNORED_NODE,
   classMatchesRegex,
-} from '@candle-analytics/rrweb-snapshot';
-import { RRNode, RRIFrameElement, BaseRRNode } from '@candle-analytics/rrdom';
-import dom from '@candle-analytics/rrweb-utils';
+} from '@getcandle/rrweb-snapshot';
+import { RRNode, RRIFrameElement, BaseRRNode } from '@getcandle/rrdom';
+import dom from '@getcandle/rrweb-utils';
 
 export function on(
   type: string,

@@ -5,8 +5,8 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @candle-analytics/rrweb@2.0.0
-  - @candle-analytics/rrweb-utils@2.0.0
+  - @getcandle/rrweb@2.0.0
+  - @getcandle/rrweb-utils@2.0.0
 
 ## 2.0.0-alpha.19
 

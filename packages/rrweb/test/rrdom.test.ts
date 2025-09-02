@@ -6,12 +6,12 @@ import { vi, type MockInstance } from 'vitest';
 import type {
   styleDeclarationData,
   styleSheetRuleData,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   createMirror,
   Mirror as NodeMirror,
-} from '@candle-analytics/rrweb-snapshot';
-import type { ReplayerHandler } from '@candle-analytics/rrdom';
+} from '@getcandle/rrweb-snapshot';
+import type { ReplayerHandler } from '@getcandle/rrdom';
 
 describe('diff algorithm for rrdom', () => {
   let mirror: NodeMirror;

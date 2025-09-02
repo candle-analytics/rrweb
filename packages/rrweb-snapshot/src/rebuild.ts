@@ -5,7 +5,7 @@ import {
   NodeType,
   type elementNode,
   type legacyAttributes,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import { type tagMap, type BuildCache } from './types';
 import {
   isElement,

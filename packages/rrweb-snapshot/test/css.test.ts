@@ -14,7 +14,7 @@ import type {
   BuildCache,
   textNode,
 } from '../src/types';
-import { NodeType } from '@candle-analytics/rrweb-types';
+import { NodeType } from '@getcandle/rrweb-types';
 import { Window } from 'happy-dom';
 
 describe('css parser', () => {

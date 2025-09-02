@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { EventType } from '@candle-analytics/rrweb-types';
-  import type { playerMetaData } from '@candle-analytics/rrweb-types';
+  import { EventType } from '@getcandle/rrweb-types';
+  import type { playerMetaData } from '@getcandle/rrweb-types';
   import type {
     Replayer,
     PlayerMachineState,
     SpeedMachineState,
-  } from '@candle-analytics/rrweb-replay';
+  } from '@getcandle/rrweb-replay';
   import {
     onMount,
     onDestroy,

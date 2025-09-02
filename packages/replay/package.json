@@ -1,12 +1,12 @@
 {
-  "name": "@candle-analytics/rrweb-replay",
+  "name": "@getcandle/rrweb-replay",
   "version": "2.0.0",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "keywords": [
     "rrweb",
-    "@candle-analytics/rrweb-replay"
+    "@getcandle/rrweb-replay"
   ],
   "scripts": {
     "dev": "vite build --watch",
@@ -56,8 +56,8 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@candle-analytics/rrweb-types": "^2.0.0",
-    "@candle-analytics/rrweb": "^2.0.0"
+    "@getcandle/rrweb-types": "^2.0.0",
+    "@getcandle/rrweb": "^2.0.0"
   },
   "browserslist": [
     "supports es6-class"

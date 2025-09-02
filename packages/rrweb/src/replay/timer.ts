@@ -3,7 +3,7 @@ import {
   type eventWithTime,
   EventType,
   IncrementalSource,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 
 export class Timer {
   public timeOffset = 0;

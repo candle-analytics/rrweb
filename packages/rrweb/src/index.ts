@@ -15,7 +15,7 @@ export {
   MouseInteractions,
   ReplayerEvents,
   type eventWithTime,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 
 // exports style.css from replay
 import './replay/styles/style.css';

@@ -6,7 +6,7 @@ import * as path from 'path';
 import * as puppeteer from 'puppeteer';
 import { vi } from 'vitest';
 import { JSDOM } from 'jsdom';
-import { buildNodeWithSN, Mirror } from '@candle-analytics/rrweb-snapshot';
+import { buildNodeWithSN, Mirror } from '@getcandle/rrweb-snapshot';
 import {
   cdataNode,
   commentNode,
@@ -16,7 +16,7 @@ import {
   NodeType,
   NodeType as RRNodeType,
   textNode,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   buildFromDom,
   buildFromNode,

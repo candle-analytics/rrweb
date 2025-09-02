@@ -6,7 +6,7 @@ import { polyfillWebGLGlobals } from '../utils';
 polyfillWebGLGlobals();
 
 import webglMutation from '../../src/replay/canvas/webgl';
-import { CanvasContext } from '@candle-analytics/rrweb-types';
+import { CanvasContext } from '@getcandle/rrweb-types';
 import { variableListFor } from '../../src/replay/canvas/deserialize-args';
 
 let canvas: HTMLCanvasElement;

@@ -1,15 +1,15 @@
-import type { Emitter } from '@candle-analytics/rrweb-types';
+import type { Emitter } from '@getcandle/rrweb-types';
 import {
   MediaInteractions,
   ReplayerEvents,
-} from '@candle-analytics/rrweb-types';
-import type { RRMediaElement } from '@candle-analytics/rrdom';
+} from '@getcandle/rrweb-types';
+import type { RRMediaElement } from '@getcandle/rrdom';
 import type { createPlayerService, createSpeedService } from '../machine';
-import type { Mirror } from '@candle-analytics/rrweb-snapshot';
+import type { Mirror } from '@getcandle/rrweb-snapshot';
 import type {
   mediaInteractionData,
   mediaAttributes,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 
 type MediaState = {
   isPlaying: boolean;

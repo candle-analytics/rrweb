@@ -3,7 +3,7 @@ import type {
   DataURLOptions,
   ImageBitmapDataURLWorkerParams,
   ImageBitmapDataURLWorkerResponse,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 
 const lastBlobMap: Map<number, string> = new Map();
 const transparentBlobMap: Map<string, string> = new Map();

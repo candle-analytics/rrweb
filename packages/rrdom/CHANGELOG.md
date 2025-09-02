@@ -5,7 +5,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @candle-analytics/rrweb-snapshot@2.0.0
+  - @getcandle/rrweb-snapshot@2.0.0
 
 ## 2.0.0-alpha.19
 

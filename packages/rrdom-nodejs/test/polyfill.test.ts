@@ -9,7 +9,7 @@ import {
   polyfillDocument,
 } from '../src/polyfill';
 import { performance as nativePerformance } from 'perf_hooks';
-import { BaseRRNode } from '@candle-analytics/rrdom';
+import { BaseRRNode } from '@getcandle/rrdom';
 
 describe('polyfill for nodejs', () => {
   it('should polyfill performance api', () => {

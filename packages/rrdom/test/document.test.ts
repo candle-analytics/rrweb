@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import { NodeType as RRNodeType } from '@candle-analytics/rrweb-types';
+import { NodeType as RRNodeType } from '@getcandle/rrweb-types';
 import {
   BaseRRDocument,
   BaseRRDocumentType,

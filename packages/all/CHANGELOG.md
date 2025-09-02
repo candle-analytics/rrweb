@@ -5,9 +5,9 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @candle-analytics/rrweb-packer@2.0.0
-  - @candle-analytics/rrweb@2.0.0
-  - @candle-analytics/rrweb-types@2.0.0
+  - @getcandle/rrweb-packer@2.0.0
+  - @getcandle/rrweb@2.0.0
+  - @getcandle/rrweb-types@2.0.0
 
 ## 2.0.0-alpha.19
 

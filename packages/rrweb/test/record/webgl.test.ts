@@ -9,14 +9,14 @@ import {
   EventType,
   IncrementalSource,
   CanvasContext,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   assertSnapshot,
   launchPuppeteer,
   stripBase64,
   waitForRAF,
 } from '../utils';
-import type { ICanvas } from '@candle-analytics/rrweb-snapshot';
+import type { ICanvas } from '@getcandle/rrweb-snapshot';
 
 interface ISuite {
   code: string;

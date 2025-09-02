@@ -1,12 +1,12 @@
 {
-  "name": "@candle-analytics/rrweb-utils",
+  "name": "@getcandle/rrweb-utils",
   "version": "2.0.0",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "keywords": [
     "rrweb",
-    "@candle-analytics/rrweb-utils"
+    "@getcandle/rrweb-utils"
   ],
   "scripts": {
     "dev": "vite build --watch",

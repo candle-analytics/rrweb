@@ -11,7 +11,7 @@ import {
   IncrementalSource,
   styleSheetRuleData,
   selectionData,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   assertSnapshot,
   getServerURL,

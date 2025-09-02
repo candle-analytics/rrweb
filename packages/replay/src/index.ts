@@ -3,8 +3,8 @@ import {
   type playerConfig,
   type PlayerMachineState,
   type SpeedMachineState,
-} from '@candle-analytics/rrweb';
-import '@candle-analytics/rrweb/dist/style.css';
+} from '@getcandle/rrweb';
+import '@getcandle/rrweb/dist/style.css';
 
 export {
   Replayer,

@@ -1,5 +1,5 @@
 {
-  "name": "@candle-analytics/rrweb-snapshot",
+  "name": "@getcandle/rrweb-snapshot",
   "version": "2.0.0",
   "description": "rrweb's component to take a snapshot of DOM, aka DOM serializer",
   "scripts": {
@@ -12,7 +12,7 @@
     "test:update": "yarn build && vitest run --update",
     "bench": "vite build && vitest bench",
     "dev": "vite build --watch",
-    "build": "yarn turbo prepublish -F @candle-analytics/rrweb-snapshot",
+    "build": "yarn turbo prepublish -F @getcandle/rrweb-snapshot",
     "check-types": "tsc --noEmit",
     "prepublish": "yarn check-types && vite build",
     "lint": "yarn eslint src"
@@ -54,8 +54,8 @@
   },
   "homepage": "https://github.com/candle-analytics/rrweb/tree/master/packages/rrweb-snapshot#readme",
   "devDependencies": {
-    "@candle-analytics/rrweb-types": "^2.0.0",
-    "@candle-analytics/rrweb-utils": "^2.0.0",
+    "@getcandle/rrweb-types": "^2.0.0",
+    "@getcandle/rrweb-utils": "^2.0.0",
     "@types/jsdom": "^20.0.0",
     "@types/node": "^18.15.11",
     "@types/puppeteer": "^5.4.4",

@@ -15,7 +15,7 @@ import {
   EventType,
   eventWithTime,
   listenerHandler,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import { recordOptions } from '../../src/types';
 
 interface IWindow extends Window {

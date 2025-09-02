@@ -8,7 +8,7 @@ import { vi, MockInstance } from 'vitest';
 import {
   createMirror,
   Mirror as NodeMirror,
-} from '@candle-analytics/rrweb-snapshot';
+} from '@getcandle/rrweb-snapshot';
 import {
   buildFromDom,
   getDefaultSN,
@@ -29,12 +29,12 @@ import type {
   serializedNodeWithId,
   canvasMutationData,
   styleSheetRuleData,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   NodeType as RRNodeType,
   EventType,
   IncrementalSource,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 
 const elementSn = {
   type: RRNodeType.Element,

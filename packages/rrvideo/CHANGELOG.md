@@ -5,7 +5,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @candle-analytics/rrweb-player@2.0.0
+  - @getcandle/rrweb-player@2.0.0
 
 ## 2.0.0-alpha.19
 

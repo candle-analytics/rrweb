@@ -7,7 +7,7 @@ import {
   Mirror,
   createMirror,
   toLowerCase,
-} from '@candle-analytics/rrweb-snapshot';
+} from '@getcandle/rrweb-snapshot';
 import {
   RRDocument,
   createOrGetNode,
@@ -15,7 +15,7 @@ import {
   buildFromDom,
   diff,
   getDefaultSN,
-} from '@candle-analytics/rrdom';
+} from '@getcandle/rrdom';
 import type {
   RRNode,
   RRElement,
@@ -25,7 +25,7 @@ import type {
   RRCanvasElement,
   ReplayerHandler,
   Mirror as RRDOMMirror,
-} from '@candle-analytics/rrdom';
+} from '@getcandle/rrdom';
 import * as mittProxy from 'mitt';
 import { polyfill as smoothscrollPolyfill } from './smoothscroll';
 import { Timer } from './timer';
@@ -42,7 +42,7 @@ import {
   IncrementalSource,
   MouseInteractions,
   ReplayerEvents,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import type {
   attributes,
   fullSnapshotEvent,
@@ -69,7 +69,7 @@ import type {
   styleDeclarationData,
   adoptedStyleSheetData,
   serializedElementNodeWithId,
-} from '@candle-analytics/rrweb-types';
+} from '@getcandle/rrweb-types';
 import {
   polyfill,
   queueToResolveTrees,
