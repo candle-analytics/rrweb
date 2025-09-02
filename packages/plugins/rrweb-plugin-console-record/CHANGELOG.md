@@ -1,5 +1,13 @@
 # @rrweb/rrweb-plugin-console-record
 
+## 2.0.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @candle-analytics/rrweb@2.0.0
+  - @candle-analytics/rrweb-utils@2.0.0
+
 ## 2.0.0-alpha.19
 
 ### Patch Changes

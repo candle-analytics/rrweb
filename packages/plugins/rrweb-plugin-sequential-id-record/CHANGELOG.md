@@ -1,5 +1,12 @@
 # @rrweb/rrweb-plugin-sequential-id-record
 
+## 2.0.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @candle-analytics/rrweb@2.0.0
+
 ## 2.0.0-alpha.19
 
 ### Patch Changes
